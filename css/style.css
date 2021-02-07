@@ -59,6 +59,14 @@ a {
   color: var(--black-first);
 }
 
+.logo-third {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white-first);
+}
+
 .hader-nav-item {
   font-weight: 500;
   font-size: 14px;
