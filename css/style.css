@@ -14,7 +14,8 @@ footer {
   border: 1px solid;
 }
 
-body {
+body,
+button {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -26,15 +27,6 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.link :focus,
-.link :hover {
-  color: var(--blue-first);
-}
-
-.link :active {
-  color: var(--blue-first);
 }
 
 .link :focus,
@@ -199,16 +191,33 @@ a {
 
 /* Портфолио */
 
-.item-btn {
-}
+/* .cards{} */
 
-.btn-title {
+.btn-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
+}
+
+.btn-title {
   letter-spacing: 0.03em;
   color: var(--white-first);
   background-color: var(--blue-first);
   border-radius: 4px;
+  border: none;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--grey-first);
 }
